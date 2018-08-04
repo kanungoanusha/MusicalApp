@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+tools:context=".MainActivity">
+
+<android.support.v7.widget.CardView
+    android:id="@+id/nowPlayingCard"
+    style="@style/home_cards">
+
+    <LinearLayout style="@style/linear_layout_home">
+
+        <ImageView
+            style="@style/img_view_home"
+            android:src="@drawable/ic_baseline_play_arrow_24px" />
+
+        <TextView
+            style="@style/text_home"
+            android:text="@string/now_playing" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+<android.support.v7.widget.CardView
+    android:id="@+id/allTracksCard"
+    style="@style/home_cards"
+    android:layout_toRightOf="@id/nowPlayingCard">
+
+    <LinearLayout style="@style/linear_layout_home">
+
+        <ImageView
+            style="@style/img_view_home"
+            android:src="@drawable/ic_baseline_playlist_play_24px" />
+
+        <TextView
+            style="@style/text_home"
+            android:text="@string/all_tracks" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+<android.support.v7.widget.CardView
+    android:id="@+id/artistCard"
+    style="@style/home_cards"
+    android:layout_below="@id/nowPlayingCard">
+
+    <LinearLayout style="@style/linear_layout_home">
+
+        <ImageView
+            style="@style/img_view_home"
+            android:src="@drawable/ic_baseline_portrait_24px" />
+
+        <TextView
+            style="@style/text_home"
+            android:text="@string/artists" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+<android.support.v7.widget.CardView
+    android:id="@+id/albumsCard"
+    style="@style/home_cards"
+    android:layout_below="@id/allTracksCard"
+    android:layout_toRightOf="@+id/artistCard">
+
+    <LinearLayout style="@style/linear_layout_home">
+
+        <ImageView
+            style="@style/img_view_home"
+            android:src="@drawable/ic_baseline_album_24px" />
+
+        <TextView
+            style="@style/text_home"
+            android:text="@string/albums" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+</RelativeLayout>

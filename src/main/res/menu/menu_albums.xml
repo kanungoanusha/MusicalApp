@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeMenu"
+        android:title="@string/home_menu" />
+    <item
+        android:id="@+id/nowPlayingMenu"
+        android:title="@string/now_playing_menu" />
+    <item
+        android:id="@+id/artistsMenu"
+        android:title="@string/artists_menu" />
+    <item
+        android:id="@+id/allTracksMenu"
+        android:title="@string/all_tracks_menu" />
+</menu>

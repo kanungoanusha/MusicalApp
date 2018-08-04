@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MusicalApp</string>
+    <string name="now_playing">Now playing</string>
+    <string name="all_tracks">All Tracks</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="home_menu">Home</string>
+    <string name="now_playing_menu">Now Playing</string>
+    <string name="artists_menu">Artists</string>
+    <string name="all_tracks_menu">All Tracks</string>
+    <string name="albums_menu">Albums</string>
+</resources>
